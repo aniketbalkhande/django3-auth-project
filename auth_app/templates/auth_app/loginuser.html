@@ -1,0 +1,23 @@
+{% extends 'auth_app/base.html' %}
+{% block content %}
+<!-- ***************************** -->
+<br>
+<div id="form-head">
+   <div id="form-inner">
+      <h1>Login</h1>
+   </div>
+</div>
+ <div id="form-inner">
+    <h2>{{error}}</h2>
+    <br>
+    <form action="" method="POST">
+       {% csrf_token %} 
+       {{form.as_p}}
+       <br>
+       <button type="submit" class="btn btn-outline-success">Login</button>
+    </form>
+
+ </div>  
+
+<!-- ***************************** -->
+{% endblock %}

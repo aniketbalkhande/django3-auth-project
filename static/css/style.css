@@ -1,0 +1,83 @@
+body{
+   padding: 0;
+   margin: 0;
+}.container {
+   padding: 5vh 20vw;
+   background-color:#eee;
+   height: 98vh;
+} #loggedin {
+   font-size: 30px;
+   color: rgb(67, 218, 67);
+   margin-bottom: 30px;
+}  #loggedin span {
+   font-size: 40px;
+   text-transform: capitalize;
+   color: rgb(137, 137, 221);
+}  #form_container button {
+   background-color: rgb(241, 103, 103);
+   color: #fff;
+   padding: 3px 5px;
+   font-size: 20px;
+
+} #form_container button:hover {
+   background-color:rgb(255, 0, 0);
+}#form_container a {
+   display: inline-block;
+   margin-right: 10px;
+   text-align: center;
+} #signup {
+   background-color: blue;
+} #signup p {
+   display: block;
+
+}
+/* Contact Me Form */
+#form_container a {
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 20px;
+  
+
+}.container-form-inner {
+   width: auto;
+   height: auto;
+}#form-head #form-inner{
+   background-color: #eee!important;
+   width: 100%;
+}#form-inner {
+   padding: 30px 35px;
+   border: 1px solid rgb(192, 239, 245);
+   background-color:#fff;
+}#form-head h1 {
+   font-family: 'Ubuntu';
+   opacity: 70%;     
+}#form-head span {
+   font-size: 20px;
+   opacity: 55%;
+}#form-inner label {
+   color: rgb(32, 29, 29);
+   display: block;
+   margin-bottom: 10px;
+   opacity: 80%;
+   font-size: 20px;
+}#form-inner input, #form-inner div {
+   width: 100%;
+   font-size: 20px;
+   font-family: 'Lato';
+}#form-inner div textarea {
+   font-size: 18px;
+   height: 24vh;
+}#form-inner ul{
+   list-style: none;
+   display: none;
+   position: absolute;
+   left: 2000;
+}#form-inner #id_buttens {
+   text-align: center;
+}#form-inner #id_buttens .btn {
+   margin-right: 10px;
+
+} #signup #form-inner form  ul li{
+   position: absolute;
+   left: 100;
+}
